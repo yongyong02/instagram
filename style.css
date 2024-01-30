@@ -1,0 +1,12 @@
+h2 {
+    color: gray;
+}
+
+.highlight {
+    border: solid;
+}
+
+#profile {
+    border: solid;
+    border-color: gray;
+}
