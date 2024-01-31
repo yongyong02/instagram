@@ -97,8 +97,12 @@ button{
     grid-template-columns: 4fr 7fr 4fr;
     height: 30px;
 
-    border-bottom: solid gray 0.1px;
     margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+#line{
+    border-bottom: 1px solid gray;
     margin-bottom: 5px;
 }
 
