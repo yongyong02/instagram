@@ -2,18 +2,27 @@
 
 <head>
     <link href="style.css" rel="stylesheet">
+    <link href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" rel="stylesheet"/>
+
 </head>
 
 <body>
-    <div>
+    <div id="top">    
         <img src="https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png">
         <input type="search" value="search" />
         <div>
+            <i class="far fa-user-tag"></i>
+            <i class="far fa-home"></i>
+            <i class="far fa-heart"></i>
+            <i class="far fa-plane"></i>
+        </div>
         </div>
         <div id="profile">
-            <img src="image/profile.jpg" width="50px">
-            <div>
-                <h2>half_bottle</h2>
+            <div id="profile_pic">
+            <img class="circle_pic" src="image/profile.jpg"/>
+            </div>
+            <div id="profile_info">
+                <div id="id">half_bottle <i class="far fa-cog"></i></div>
                 <button>프로필 편집</button>
             </div>
         </div>
@@ -28,42 +37,66 @@
             </a>
         </p>
     </div>
-    <div>
+    <div id="highlight_area">
         <div class="highlight">
-            <div>
-                <img src="Image\h1.jpg" height="38px" />
+            <div class="highlight_pic">
+                <img class="circle_pic" src="Image\h1.jpg" />
             </div>
             <div>🩶</div>
         </div>
         <div>
             <div class="highlight">
-                <img src="Image\h2.jpg" height="38px" />
+                <div class="highlight_pic">
+                    <img class="circle_pic2" src="Image\h2.jpg"/>
+                </div>
+                <div>🖤</div>
             </div>
-            <div>🖤</div>
         </div>
+        <div></div>
     </div>
-    <div>
-        <div>
+    <div id="stat_bar">
+        <div class="stat">
             게시물</br>
             100
         </div>
-        <div>
+        <div class="stat">
             팔로우</br>
             200
         </div>
-        <div>
+        <div class="stat">
             팔로워</br>
             300
         </div>
     </div>
 
-    <div>아이콘이 들어갈 자리</div>
+    <div id="sub_icon">
+        <div class="select">
+            <i class="fas fa-border-all"></i>
+        </div>
+        <div class="select">
+            <i class="fas fa-film"></i>
+        </div>
+        <div class="select">
+            <i class="fas fa-camera-retro"></i>
+        </div>
+        <div class="select">
+            <i class="far fa-bookmark"></i>
+        </div>
+        <div class="select">
+            <i class="far fa-share-square"></i>
+        </div>
+    </div>
     <div>
-        <img src="Image/post/1.jpg" width="32%" />
-        <img src="Image/post/2.jpg" width="32%" />
-        <img src="Image/post/3.jpg" width="32%" />
-        <img src="Image/post/4.jpg" width="32%" />
-        <img src="Image/post/5.jpg" width="32%" />
+        <div class="post_grid">
+            <img src="Image/post/1.jpg" class="post" />
+            <img src="Image/post/2.jpg" class="post" />
+            <img src="Image/post/3.jpg" class="post" />
+        </div>
+        <div class="post_grid">
+            <img src="Image/post/4.jpg" class="post" />
+            <img src="Image/post/5.jpg" class="post" />
+            <img src="Image/post/6.jpg" class="post" />
+        </div>
     </div>
 </body>
 
